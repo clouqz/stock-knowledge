@@ -1,60 +1,18 @@
-# 股票投资知识库
+# Quartz v4
 
-> 基于 Obsidian + Quartz + GitHub Pages 构建的个人股票投资分析知识管理系统
+> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
-## 架构
+Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
 
-```
-本地编辑: Obsidian (Markdown + 双链)
-    ↓
-版本控制: Git
-    ↓
-构建发布: Quartz (静态网站生成器)
-    ↓
-托管服务: GitHub Pages
-```
+🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
 
-## 目录结构
+[Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
-基于 PARA 方法:
+## Sponsors
 
-- 📥 `inbox/` - 快速捕获
-- 📊 `projects/` - 活跃项目
-- 🎯 `areas/` - 持续关注领域
-- 📚 `resources/` - 参考资料
-- 📦 `archive/` - 已完成
-- 📋 `templates/` - 笔记模板
-
-## 快速开始
-
-### 本地开发
-
-```bash
-# 安装依赖
-npm install
-
-# 本地预览
-cd quartz
-npm run build
-npm run preview
-```
-
-### 发布更新
-
-```bash
-npx quartz sync
-```
-
-### 使用 Obsidian 编辑
-
-用 Obsidian 打开 `content/` 目录作为 vault
-
-## 参考
-
-- [Quartz 文档](https://quartz.jzhao.xyz/)
-- [Obsidian 官网](https://obsidian.md/)
-- [PARA 方法](https://fortelabs.com/blog/para-method/)
-
-## 许可证
-
-MIT
+<p align="center">
+  <a href="https://github.com/sponsors/jackyzha0">
+    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
+  </a>
+</p>
