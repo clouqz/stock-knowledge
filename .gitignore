@@ -1,0 +1,30 @@
+# Quartz
+node_modules/
+quartz/.quartz-cache/
+quartz/public/
+quartz/dist/
+*.log
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache/
+.obsidian/ Graphs/
+.obsidian/*.json.backup
+
+# System
+.DS_Store
+Thumbs.db
+.env.local
+
+# Private/Draft content
+content/private/
+content/drafts/
+*.draft.md
+*.private.md
+
+# Build outputs
+dist/
+build/
+*.tgz

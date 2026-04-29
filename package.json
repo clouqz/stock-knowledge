@@ -1,0 +1,19 @@
+{
+  "name": "stock-knowledge-base",
+  "version": "1.0.0",
+  "description": "Stock Investment Knowledge Base with Quartz",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "quartz build",
+    "preview": "quartz preview",
+    "sync": "quartz sync",
+    "update": "quartz update"
+  },
+  "dependencies": {
+    "quartz": "^4.5.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
