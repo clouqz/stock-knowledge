@@ -1,8 +1,8 @@
 # Quartz
 node_modules/
 quartz/.quartz-cache/
-quartz/public/
 quartz/dist/
+public/
 *.log
 
 # Obsidian
